@@ -11,7 +11,7 @@ const SignUpUser = () => {
       console.log(data);
     }
   };
-
+ 
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div>
