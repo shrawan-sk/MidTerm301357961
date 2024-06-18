@@ -8,7 +8,7 @@ const AddProduct = () => {
     quantity: '',
     price: ''
   });
-
+  
   const handleChange = (e) => {
     const { name, value } = e.target;
     setProduct(prevState => ({
