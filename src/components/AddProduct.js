@@ -11,7 +11,7 @@ const AddProduct = () => {
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setProduct(prevState => ({
+    setProduct((prevState) => ({
       ...prevState,
       [name]: value
     }));
